@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         randomDiceIndex1 = Int(arc4random_uniform(6))
         randomDiceIndex2 = Int(arc4random_uniform(6))
         
+        print(randomDiceIndex1)
         
     }
     
